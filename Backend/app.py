@@ -27,7 +27,8 @@ def get_data():
     data = ref.get()
     if key in data:
         value = data[key]
-        return jsonify({key: value}), 200
+        return jsonify(value), 200
+        # return jsonify({key: value}), 200
     else:
         return jsonify({'error': 'Key not found.'}), 404
 
