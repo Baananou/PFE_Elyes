@@ -13,22 +13,25 @@ export default function Home() {
           <ButtonDisplay keyParam='DECHARGE' />
         </div>
         <div className='flex flex-col gap-6'>
-          <div className='flex gap-20'>
-            <AlertDisplay keyParam='POS11' />
-            <AlertDisplay keyParam='POS12' />
-          </div>
-          <div className='flex gap-20'>
-            <AlertDisplay keyParam='POS21' />
-            <AlertDisplay keyParam='POS22' />
+        <div className='flex gap-20'>
+            <AlertDisplay keyParam='POS41' />
+            <AlertDisplay keyParam='POS42' />
           </div>
           <div className='flex gap-20'>
             <AlertDisplay keyParam='POS31' />
             <AlertDisplay keyParam='POS32' />
           </div>
           <div className='flex gap-20'>
-            <AlertDisplay keyParam='POS41' />
-            <AlertDisplay keyParam='POS42' />
+            <AlertDisplay keyParam='POS21' />
+            <AlertDisplay keyParam='POS22' />
           </div>
+          <div className='flex gap-20'>
+            <AlertDisplay keyParam='POS11' />
+            <AlertDisplay keyParam='POS12' />
+          </div>
+          
+          
+          
         </div>
       </section>
     </Layout>

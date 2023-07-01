@@ -36,7 +36,7 @@ export default function Footer() {
         <footer className="flex items-center justify-between px-2 py-3 bg-lime-50">
             <div className="container px-8 mx-auto flex flex-wrap items-center justify-between">
                 <Image src={"/c2i.png"} alt="c2i" width={150} height={150} />
-                <div className="font-bold uppercase">Elyess Haj Othmen</div>
+                <div className="font-bold uppercase">Elyess Haj Othmen / Firas Gaha</div>
                 <div className="font-semibold">{formattedDate}</div>
                 <div className="font-semibold">{currentTime}</div>
                 <Image src={"/draxlmaier.png"} alt="draxlmaier" width={150} height={150} />

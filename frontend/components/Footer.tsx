@@ -17,7 +17,7 @@ export default function Footer() {
                                 rel="noopener noreferrer"
                             >
                                 {" "}
-                                Elyess Haj Othmen
+                                Elyess Haj Othmen / Firas Gaha
                             </a>
                         </div>
                     </div>
